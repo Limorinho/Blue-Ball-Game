@@ -39,5 +39,3 @@ Contributions are welcome! To contribute:
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ---
-
-For more information and updates, visit the [GitHub repository](https://github.com/Limorinho/Blue-Ball-Game). 
