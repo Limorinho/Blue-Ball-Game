@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://djxek1igbakny"]
+
+[ext_resource type="PackedScene" uid="uid://c1m4d6pqn3iyr" path="res://scenes/globy.tscn" id="1_tck4o"]
+
+[node name="GAME" type="Node2D"]
+
+[node name="Globy" parent="." instance=ExtResource("1_tck4o")]
+position = Vector2(36, 33)
+
+[node name="Camera2D" type="Camera2D" parent="Globy"]
+position = Vector2(0, -4)
+zoom = Vector2(4, 4)
+position_smoothing_enabled = true
+
+[node name="TileMap" type="TileMap" parent="."]
+format = 2
